@@ -1,11 +1,11 @@
 package org.bonn.soa;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  * @author philipp.amkreutz
  */
-@Component
+@Service
 public class ResumeService {
 
 	public void storeResume() {
